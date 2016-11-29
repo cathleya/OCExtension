@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OCExtension"
-  s.version      = "0.1.4"
-  s.summary      = "A cluster of functions for ios development."
+  s.version      = "0.0.1"
+  s.summary      = "A short description of OCExtension."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                    private extension for IOS
                    DESC
 
   s.homepage     = "https://github.com/cathleya/OCExtension"
@@ -133,6 +132,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
+  # s.dependency "JSONKit", "~> 1.4"
   s.dependency "RegexKitLite-NoWarning", "~> 1.1.0"
   s.dependency "CocoaLumberjack", "~> 3.0.0"
 
