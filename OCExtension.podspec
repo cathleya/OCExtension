@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OCExtension"
-  s.version      = "0.0.9"
+  s.version      = "0.1.0"
   s.summary      = "A cluster of functions for ios development."
 
   # This description is used to generate tags and improve search results.
@@ -105,6 +105,8 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
+  s.resources = "OCExtension/UI/NumberSwicthButton/*.png"
+  s.resources = "OCExtension/UI/RefreshView/Resource/*.png"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
@@ -135,5 +137,7 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   s.dependency "RegexKitLite-NoWarning", "~> 1.1.0"
   s.dependency "CocoaLumberjack", "~> 3.0.0"
+  s.dependency "SDWebImage/WebP", "~> 4.0.0-beta2"
+  s.dependency "JDStatusBarNotification", "~> 1.5.4"
 
 end
