@@ -1,7 +1,7 @@
 
 
 #import "NSString+add.h"
-
+#import <RegexKitLite-NoWarning/RegexKitLite.h>
 
 
 @implementation NSString(add)

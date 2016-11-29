@@ -1,6 +1,5 @@
 
 #import <Foundation/Foundation.h>
-#import <RegexKitLite-NoWarning/RegexKitLite.h>
 #import <UIKit/UIKit.h>
 
 
