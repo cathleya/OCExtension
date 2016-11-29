@@ -23,7 +23,7 @@
 #import "UIButton+add.h"
 #import "UIBarButtonItem+Extension.h"
 #import "NSString+json.h"
-#import "NSString+add.h"
+//#import "NSString+add.h"
 #import "NSObject+json.h"
 #import "NSObject+GCD.h"
 #import "NSDate+add.h"
