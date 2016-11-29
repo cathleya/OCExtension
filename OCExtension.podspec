@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "OCExtension"
-  s.version      = "0.1.2"
+  s.version      = "0.1.3"
   s.summary      = "A cluster of functions for ios development."
 
   # This description is used to generate tags and improve search results.
