@@ -11,9 +11,10 @@
 
 @implementation NSData(GZip)
 
-/*
+
 +(NSData *)dataUncompressGZipData:(NSData *)gzipData
 {
+    /*
 	if ([gzipData length] == 0){
 		return gzipData; 
 	}
@@ -57,10 +58,13 @@
     } else {  
         return nil;  
     }
+     */
+    return nil;
 }
 
 +( NSData *)compressData:(NSData *)uncompressedData
 {
+    /*
     if (!uncompressedData || [uncompressedData length ] == 0 )  {
         
         NSLog ( @"%s: Error: Can't compress an empty or null NSData object." , __func__);
@@ -236,8 +240,10 @@
     [compressedData setLength:zlibStreamStruct.total_out];
     
     return compressedData;
+ */
+    return nil;
 }
 
-*/
+
 
 @end
